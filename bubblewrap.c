@@ -2621,8 +2621,9 @@ namespace_ids_write (int    fd,
     }
 }
 
+// Main function renamed so that bwrap can be used as a library
 int
-main (int    argc,
+bwrap_main (int    argc,
       char **argv)
 {
   mode_t old_umask;
